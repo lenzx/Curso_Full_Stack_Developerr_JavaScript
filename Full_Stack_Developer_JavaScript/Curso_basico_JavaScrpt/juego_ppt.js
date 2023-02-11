@@ -14,8 +14,8 @@ function elejir(x) {
     }
 }
 
-function jugar(x) {
-    if (elejir(x) === 1) {
+function jugar(a) {
+    if (elejir(a) === 1) {
         if (numero === 1) {
             console.log('empate')
         }
@@ -26,7 +26,7 @@ function jugar(x) {
             console.log('ganas')
         }
     }
-    if (elejir(x) === 2) {
+    if (elejir(a) === 2) {
         if (numero === 1) {
             console.log('ganas')
         }
@@ -37,7 +37,7 @@ function jugar(x) {
             console.log('pierdes')
         }
     }
-    if (elejir(x) === 3) {
+    if (elejir(a) === 3) {
         if (numero === 1) {
             console.log('pierdes')
         }
