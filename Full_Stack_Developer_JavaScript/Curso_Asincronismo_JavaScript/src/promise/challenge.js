@@ -32,3 +32,5 @@ fetchData(`${API}/products`)
     })
     .catch(error => console.log(error))
     .finally(() => console.log('finally'))
+
+    Promise.all()
